@@ -23,16 +23,56 @@ ul {
 
 li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 
 nav {
     background-color: black;
     padding: 10px;
+    border-radius: 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+}
+
+section {
+    margin: 40px;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px grey;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px grey;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+span {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
