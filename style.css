@@ -11,10 +11,12 @@ body {
 }
 
 .sub-title {
+    text-align: center;
     color: darkred;
 }
 
 .text {
+    text-align: center;
     color: darkgreen;
 }
 
@@ -24,28 +26,42 @@ ul {
 }
 
 li {
-    display: inline;
-    margin-right: 50px;
+    list-style: none;
 }
 
-
 nav {
-    background-color: black;
-    padding: 15px;
-    border-radius: 10px;
+    background-color: #1e293b;
+    padding: 18px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px grey;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: lightblue
+    background-color: #334155;
+    color: white;
+    box-shadow: 0px 0px 12px rgba;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 section {
-    margin: 40px;
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 div {
@@ -57,10 +73,11 @@ div {
 
 article {
     background-color: white;
-    padding: 25px;
-    margin-bottom: 30px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 15px;
     box-shadow: 10px 10px 20px grey;
+    flex: 1 1 300px;
+    text-align: center;
 }
 
 article:hover {
@@ -70,6 +87,7 @@ article:hover {
 
 button {
     background-color: red;
+    text-align: center;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -91,7 +109,7 @@ span {
     margin: 2px;
 }
 
-@media (max-width 600px) {
+@media (max-width: 600px) {
 
     li {
         display: block;
