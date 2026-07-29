@@ -1,5 +1,5 @@
 body {
-    background-color: turquoise;
+    background-color: #e0f2fe;
     color: red;
     font-family: Arial, sans-serif;
 }
@@ -7,6 +7,7 @@ body {
 .title {
     text-align: center;
     font-size: 40px;
+    color: darkblue;
     color: darkblue;
 }
 
@@ -34,6 +35,7 @@ nav {
     padding: 18px 30px;
     border-radius: 12px;
     box-shadow: 0px 5px 15px grey;
+    transition: 0.3s;
 }
 
 nav a {
@@ -88,11 +90,13 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+
 }
 
 button:hover {
-    transition: 0.3s;
     background-color: darkred;
+    transform: scale(1.05);
 }
 
 span {
@@ -114,4 +118,47 @@ span {
     section {
         width: 95%;
     }
+}
+
+.dark-mode {
+    background-color: #111827;
+    color: white;
+}
+
+.dark-mode article {
+    background-color: #1f2937;
+}
+
+.dark-mode .text {
+    color: white;
+}
+
+.dark-mode .title {
+    color: lightgrey;
+}
+
+.dark-mode .sub-title {
+    color: lightblue;
+}
+
+.dark-button {
+    background-color: #334155;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.dark-button:hover {
+    background-color: #475569;
+    transform: scale(1.05);
+}
+
+.dark-mode .dark-button {
+    background-color: #facc15;
+    color: black;
+}
+
+.dark-mode .dark-button:hover {
+    background-color: #fde047;
 }
