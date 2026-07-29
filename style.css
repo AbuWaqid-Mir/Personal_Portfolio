@@ -47,13 +47,14 @@ nav a {
 nav a:hover {
     background-color: #334155;
     color: white;
-    box-shadow: 0px 0px 12px rgba;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.3);
 }
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 section {
@@ -64,13 +65,6 @@ section {
     gap: 25px;
 }
 
-div {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px grey;
-}
-
 article {
     background-color: white;
     padding: 20px;
@@ -78,10 +72,11 @@ article {
     box-shadow: 10px 10px 20px grey;
     flex: 1 1 300px;
     text-align: center;
+    transition: 0.3s;
 }
 
 article:hover {
-    transition: 0.3s;
+    transform: translateY(-5px);
     background-color: lightgrey;
 }
 
