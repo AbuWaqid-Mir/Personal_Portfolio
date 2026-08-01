@@ -8,7 +8,6 @@ body {
     text-align: center;
     font-size: 40px;
     color: darkblue;
-    color: darkblue;
 }
 
 .sub-title {
@@ -72,7 +71,7 @@ article {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 10px 10px 20px grey;
-    flex: 1 1 300px;
+    flex: 1 1 400px;
     text-align: center;
     transition: 0.3s;
 }
