@@ -56,7 +56,7 @@ https://abuwaqid-mir.github.io/Personal_Portfolio/index.html
 
 <img width="1917" height="983" alt="image" src="https://github.com/user-attachments/assets/c7a56f90-dba5-4aa4-b3af-b64272e8171f" />
 
-<img width="1917" height="982" alt="image" src="https://github.com/user-attachments/assets/a3e38946-d96d-4251-9a96-bc2105aedb89" />
+<img width="2554" height="950" alt="image" src="https://github.com/user-attachments/assets/21ccb5d6-d720-4716-aea6-50bea64fabd1" />
 
 <img width="1901" height="981" alt="image" src="https://github.com/user-attachments/assets/d066c990-6cf7-4cda-ba2e-93c8ad89890c" />
 
